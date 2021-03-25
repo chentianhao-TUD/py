@@ -48,10 +48,10 @@ for i in range(matrix_2019.shape[0]):
 # count numbers of minus degree
 numbers_in_year = [len(time_value_2015), len(time_value_2016), len(time_value_2017), len(time_value_2018),
                    len(time_value_2019)]
-labels_year = ['2015', '2016', '2017', '2018', '2019']
-color = ['red', 'blue', 'orange', 'green', 'pink']
-x = np.arange(len(labels_year))
-width = 0.5
+labels_year = ['2015', '2016', '2017', '2018', '2019']  # labels on x axis
+color = ['red', 'blue', 'orange', 'green', 'pink']  # color for the bars
+x = np.arange(len(labels_year))  # location for x labels
+width = 0.5  # width of each bar
 
 # create a figure
 fig, minus = plt.subplots()
