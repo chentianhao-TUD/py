@@ -1,5 +1,4 @@
 from separate_year_15min_intervals import matrix_2015, matrix_2016, matrix_2017, matrix_2018, matrix_2019
-import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 
